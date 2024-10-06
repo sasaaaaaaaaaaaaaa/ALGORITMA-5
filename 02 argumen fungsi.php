@@ -1,6 +1,6 @@
 <?php
 // Tanpa argumen
-function nama_bulan() {
-	echo 'Desember';
+function nama_bulan($bulan, $tahun) {
+	echo $bulan . ' ' . $tahun;
 }
-nama_bulan(); // Hasil Desember
+nama_bulan('Januari', 2016); // Hasil Januari 2016
