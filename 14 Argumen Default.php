@@ -1,7 +1,7 @@
 <?php
-function salam($waktu = "pagi") {
+function salam($waktu = "malam") {
     echo "Selamat $waktu!";
 }
 
-salam(); // Output: Selamat pagi!
+salam(); // Output: Selamat malam!
 salam("malam"); // Output: Selamat malam!
