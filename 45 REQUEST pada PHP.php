@@ -15,6 +15,7 @@
 		print_r($_POST);
 		print_r($_REQUEST);
 	}
+
 	?>
 </body>
 </html>
